@@ -1,0 +1,7 @@
+john     24
+paul     20
+ann      21
+cris     20
+henry    27
+agnes    24
+andrew   22
