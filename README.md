@@ -46,5 +46,5 @@
 - select
 - Parallelism & communication problems
 
-**Week 8 $ 9**:  
+**Week 8 & 9**:  
 - Robot Framework 
