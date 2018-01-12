@@ -1,0 +1,35 @@
+MessageType: LOG
+MessageText: LTE NAS EMM Plain OTA Outgoing Message
+MessageSummary: Length: 0025
+Timestamp: 07/10/2013 12:04:11.590
+MessagePayload: 0x01 09 05 00 07 45 09 0B F6 44 F0 80 00 02 05 00 01 40 BB 00 00 00 00 00 00
+ParsedText:
+2013 Jul 10  12:04:11.590  [00]  0xB0ED  LTE NAS EMM Plain OTA Outgoing Message  --  Detach request Msg
+pkt_version = 1 (0x1)
+rel_number = 9 (0x9)
+rel_version_major = 5 (0x5)
+rel_version_minor = 0 (0x0)
+security_header_or_skip_ind = 0 (0x0)
+prot_disc = 7 (0x7) (EPS mobility management messages)
+lte_emm_msg
+  emm_detach_request
+    tsc = 0 (0x0) (cached sec context)
+    nas_key_set_id = 0 (0x0)
+    detach_type = 1 (0x1) (EPS detach)
+    eps_mob_id
+      id_type = 6 (0x6) (GUTI)
+      odd_even_ind = 0 (0x0)
+      Guti_1111 = 15 (0xf)
+      mcc_1 = 4 (0x4)
+      mcc_2 = 4 (0x4)
+      mcc_3 = 0 (0x0)
+      mnc_3 = 15 (0xf)
+      mnc_1 = 0 (0x0)
+      mnc_2 = 8 (0x8)
+      MME_group_id = 2 (0x2)
+      MME_code = 5 (0x5)
+      m_tmsi = 82107 (0x140bb)
+    switch_off = 1 (0x1) (switch off)
+msg_type = 69 (0x45) (Detach request)
+ *QCAT Parsing Result*
+
